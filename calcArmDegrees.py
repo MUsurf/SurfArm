@@ -76,4 +76,4 @@ def arm_degrees(x, y):
     # print("joint2: "+str(joint2))
     return joint1, joint2
 
-print(arm_degrees(0, 19))
+# print(arm_degrees(0, 19))

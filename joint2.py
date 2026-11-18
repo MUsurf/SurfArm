@@ -68,7 +68,7 @@ try:
         
         #servo 1
         duty1 = degrees_to_duty(servo1Deg)
-        print("duty0: "+str(duty1))
+        print("duty1: "+str(duty1))
         if minDuty > duty1 or duty1 > maxDuty:
             print("out of range")
         else:
